@@ -55,6 +55,7 @@
   },
   "resume":{
     "skillmessage":"Flexible. Full-Stack. Fine-tuned. With room for improvement and learning.",
+    "resumeintro":"A brief summary of my most inluencial and important experiences.",
     "education":[
       {
         "school":"Knox College",
@@ -133,28 +134,32 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Covid Tower Defense",
+        "category":"A 10 week group project where we created a Unity game from scratch.",
+        "image":"CTD.png",
+        "url":"https://play.unity.com/mg/other/covid-td-build",
+        "technologies": "Unity, C#, Sourcetree, Git"
       },
       {
         "title":"Fury Fighting Gear",
         "category":"(offline now) A fighting gear company I started",
         "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"http://www.timbakerdev.com",
+        "technologies": "Unity, C#, Sourcetree, Git"
       },
       {
         "title":"Original Thai Food",
         "category":"Website I built for a restaurant I like in Thailand",
         "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io",
+        "technologies": "Unity, C#, Sourcetree, Git"
       },
       {
         "title":"Resume Website",
         "category":"A React based resume website template",
         "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"http://www.timbakerdev.com",
+        "technologies": "Unity, C#, Sourcetree, Git"
       },
       {
         "title":"Smirkspace",

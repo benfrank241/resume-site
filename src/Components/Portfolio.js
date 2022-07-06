@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Zmage from "react-zmage";
+//import Zmage from "react-zmage";
 import Fade from "react-reveal";
 
 let id = 0;
@@ -7,14 +7,21 @@ class Portfolio extends Component {
   render() {
     if (!this.props.data) return null;
 
+
+    const spacer = "      ";
     const projects = this.props.data.projects.map(function (projects) {
       let projectImage = "images/portfolio/" + projects.image;
 
       return (
         <div key={id++} className="columns portfolio-item">
           <div className="item-wrap">
-            <Zmage alt={projects.title} src={projectImage} />
-            <div style={{ textAlign: "center" }}>{projects.title}</div>
+            <a href={projects.url} target="_blank" rel="noreferrer">
+              <img alt={projects.title} src={projectImage} /></a>
+            <div style={{ textAlign: "center" }}><a href={projects.url} target="_blank" rel="noreferrer"><i className="fa fa-github"></i>{spacer}{projects.title}{spacer}
+            </a>
+              <em>{projects.technologies}</em>
+
+            </div>
           </div>
         </div>
       );
@@ -29,8 +36,7 @@ class Portfolio extends Component {
 
               <div
                 id="portfolio-wrapper"
-                className="bgrid-quarters s-bgrid-thirds cf"
-              >
+                className="bgrid-quarters s-bgrid-thirds cf">
                 {projects}
               </div>
             </div>
