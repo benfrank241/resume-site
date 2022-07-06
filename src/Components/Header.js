@@ -6,10 +6,13 @@ class Header extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const project = this.props.data.project;
+    const linkedin = this.props.data.linkedin;
     const github = this.props.data.github;
+    const knox = this.props.data.knox;
+    const sendemail = this.props.data.sendemail;
     const name = this.props.data.name;
     const description = this.props.data.description;
+    const profilepic = "images/" + this.props.data.image;
 
     return (
       <header id="home">
@@ -51,6 +54,14 @@ class Header extends Component {
           </ul>
         </nav>
 
+        <div className="image">
+        <img
+                className="header-pic"
+                src={profilepic}
+                alt="Ben Bartholomew Header Pic"
+              />
+          </div>
+
         <div className="row banner">
           <div className="banner-text">
             <Fade bottom>
@@ -62,11 +73,17 @@ class Header extends Component {
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a href={project} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Project
+                <a href={linkedin} target="_blank" rel="noreferrer" className="button btn linkedin-btn">
+                  <i className="fa fa-linkedin"></i>LinkedIn
                 </a>
-                <a href={github} className="button btn github-btn">
+                <a href={github} target="_blank" rel="noreferrer" className="button btn github-btn">
                   <i className="fa fa-github"></i>Github
+                </a>
+                <a href={knox} target="_blank" rel="noreferrer" className="button btn knox-btn">
+                  <i className="fa fa-book"></i>Knox
+                </a>
+                <a href={sendemail} target="_blank" rel="noreferrer" className="button btn email-btn">
+                  <i className="fa fa-envelope"></i>Email
                 </a>
               </ul>
             </Fade>

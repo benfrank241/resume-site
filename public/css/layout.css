@@ -46,12 +46,28 @@ header:before {
    height: 100%;
 }
 header .banner {
-   display: inline-block;
-   vertical-align: middle;
+   display: block;
+   float: left;
    margin: 0 auto;
-   width: 85%;
+   width: 50%;
    padding-bottom: 30px;
+   padding-top: 200px;
    text-align: center;
+}
+header .image {
+   display: block;
+   float: right;
+   margin: 0 auto;
+   width: 50%;
+   padding-bottom: 60px;
+   padding-top: 0px; /*adjust with new image */
+   text-align: center;
+}
+
+header .header-pic {
+   position: relative;
+   width: 100%;
+   height: 40%;
 }
 
 header .banner-text { width: 100%; }
@@ -134,8 +150,8 @@ header .scrolldown a:hover { color: #0762f9; }
    position: fixed;
    left: 0;
    top: 0;
+   background-color: #333;
 }
-.opaque { background-color: #333; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -1009,16 +1025,26 @@ footer .social-links li:first-child { margin-left: 0; }
 .social .btn:first-child{
    margin-right: 30px;
 }
+.social .btn:last-child{
+   margin-left: 30px;
+}
 .social .btn{
    padding-left: 30px;
-   padding-right: 30px; 
+   padding-right: 30px;
 }
 .social .btn i{
    margin-right: 15px;
 }
-.project-btn{
-   background-color: #1abc9c !important;
+.linkedin-btn{
+   background-color: #102f72 !important;
 }
 .github-btn{
    background-color: #34495e !important;
+   margin-right: 30px;
+}
+.knox-btn{
+   background-color: #490377 !important;
+}
+.email-btn{
+   background-color: #db8c24 !important;
 }

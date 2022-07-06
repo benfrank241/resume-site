@@ -9,6 +9,9 @@
     "phone": "613-501-3514",
     "github":"https://github.com/benfrank241",
     "project":"https://github.com/benfrank241/resume-site",
+    "knox": "https://www.knox.edu/",
+    "linkedin": "https://www.linkedin.com/in/ben-bartholomew/",
+    "sendemail": "mailto:benjamenbartholomew@gmail.com",
     "address":{
       "street":"124 West Village Pvt",
       "city":"Ottawa",
@@ -42,6 +45,11 @@
         "name":"github",
         "url":"https://github.com/benfrank241",
         "className":"fa fa-github"
+      },
+      {
+        "name":"knox",
+        "url":"https://www.knox.edu/",
+        "className":"fa fa-graduation-cap"
       }
     ]
   },
