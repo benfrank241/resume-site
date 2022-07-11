@@ -134,81 +134,47 @@
   "portfolio":{
     "projects": [
       {
+        "title":"Tap in Mobile App",
+        "category":"Company I co-founded and was the CTO",
+        "image":"TapInLogo.png",
+        "url":"https://github.com/benfrank241/tap_in#readme",
+        "technologies": "Flutter, Dart, Gradle, Firebase"
+      },
+      {
         "title":"Covid Tower Defense",
         "category":"A 10 week group project where we created a Unity game from scratch.",
         "image":"CTD.png",
         "url":"https://play.unity.com/mg/other/covid-td-build",
-        "technologies": "Unity, C#, Sourcetree, Git"
+        "technologies": "Unity, C#, Sourcetree"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
+        "title":"Kk's Kitchen",
+        "category":"Restaurant App I built for my girlfriend",
         "image":"02.jpg",
-        "url":"http://www.timbakerdev.com",
-        "technologies": "Unity, C#, Sourcetree, Git"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io",
-        "technologies": "Unity, C#, Sourcetree, Git"
+        "url":"https://github.com/benfrank241/Kk-s-Kitchen-Mobile",
+        "technologies": "Flutter, Dart, Firebase"
       },
       {
         "title":"Resume Website",
         "category":"A React based resume website template",
-        "image":"04.jpg",
+        "image":"website.png",
         "url":"http://www.timbakerdev.com",
         "technologies": "Unity, C#, Sourcetree, Git"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"Schedule Uploader Script",
+        "category":"Script I developed to automatically upload schedules for my schools sports.",
+        "image":"schedule.png",
+        "url":"https://github.com/benfrank241/Automatic-Schedule-Uploader/tree/main#readme",
+        "technologies": "Python"
       },
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      }
+        "title":"Leetcode",
+        "category":"Collection of LeetCode questions to ace the coding interview!",
+        "image":"leetcode.png",
+        "url":"https://github.com/benfrank241/LeetCode",
+        "technologies": "Python, Java"
+      }      
     ]
   }
 }

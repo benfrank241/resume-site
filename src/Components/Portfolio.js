@@ -15,6 +15,7 @@ class Portfolio extends Component {
       return (
         <div key={id++} className="columns portfolio-item">
           <div className="item-wrap">
+          <div className="overlay"> <a href={projects.url} target="_blank" rel="noreferrer"> {projects.category} </a></div>
             <a href={projects.url} target="_blank" rel="noreferrer">
               <img alt={projects.title} src={projectImage} /></a>
             <div style={{ textAlign: "center" }}><a href={projects.url} target="_blank" rel="noreferrer"><i className="fa fa-github"></i>{spacer}{projects.title}{spacer}
