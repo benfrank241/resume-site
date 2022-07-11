@@ -1,3 +1,3 @@
 Portfolio and resume website.
 
-benbartholomew.me
+https://benbartholomew.me/
