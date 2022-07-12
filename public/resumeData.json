@@ -156,10 +156,10 @@
       },
       {
         "title":"Resume Website",
-        "category":"A React based resume website template",
+        "category":"A React resume website template",
         "image":"website.png",
-        "url":"http://www.timbakerdev.com",
-        "technologies": "Unity, C#, Sourcetree, Git"
+        "url":"https://github.com/benfrank241/resume-site",
+        "technologies": "React, Css, Html, Netlify"
       },
       {
         "title":"Schedule Uploader Script",
