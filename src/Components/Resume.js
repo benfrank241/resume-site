@@ -19,7 +19,6 @@ class Resume extends Component {
     const education = this.props.data.education.map(function (education) {
       return (
         <div key={education.school}>
-          <p>{resumeintro}</p>
           <h3>{education.school}</h3>
           <p className="info">
             {education.degree} <span>&bull;</span>
